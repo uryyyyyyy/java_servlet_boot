@@ -8,3 +8,5 @@
 *.classpath
 *.project
 *.settings
+
+apache-tomcat-7.0.53/*
