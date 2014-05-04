@@ -1,8 +1,8 @@
 
 # gradle
 
-*.gradle
-
+.gradle/*
+build/*
 
 # eclipse
 *.classpath
