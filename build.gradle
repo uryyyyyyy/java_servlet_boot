@@ -1,4 +1,3 @@
-
 apply plugin: 'java'
 apply plugin: 'eclipse'
 
@@ -12,8 +11,8 @@ repositories {
 }
 
 dependencies {
-    compile("com.h2database:h2")
-    testCompile("junit:junit")
+    compile 'com.h2database:h2:1.3.148'
+    testCompile "junit:junit:4.11"
 }
 
 task wrapper(type: Wrapper) {
